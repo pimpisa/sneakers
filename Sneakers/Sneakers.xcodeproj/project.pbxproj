@@ -101,6 +101,7 @@
 		8462A47B1C6FAF5400DBEDD8 /* Sneakers */ = {
 			isa = PBXGroup;
 			children = (
+				8462A4AF1C6FB08F00DBEDD8 /* Models */,
 				8462A47C1C6FAF5400DBEDD8 /* AppDelegate.swift */,
 				8462A47E1C6FAF5400DBEDD8 /* ViewController.swift */,
 				8462A4801C6FAF5400DBEDD8 /* Main.storyboard */,
@@ -108,7 +109,6 @@
 				8462A4881C6FAF5400DBEDD8 /* LaunchScreen.storyboard */,
 				8462A48B1C6FAF5400DBEDD8 /* Info.plist */,
 				8462A4831C6FAF5400DBEDD8 /* Sneakers.xcdatamodeld */,
-				8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */,
 			);
 			path = Sneakers;
 			sourceTree = "<group>";
@@ -129,6 +129,14 @@
 				8462A4A11C6FAF5400DBEDD8 /* Info.plist */,
 			);
 			path = SneakersUITests;
+			sourceTree = "<group>";
+		};
+		8462A4AF1C6FB08F00DBEDD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
