@@ -15,6 +15,7 @@
 		8462A48A1C6FAF5400DBEDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8462A4881C6FAF5400DBEDD8 /* LaunchScreen.storyboard */; };
 		8462A4951C6FAF5400DBEDD8 /* SneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A4941C6FAF5400DBEDD8 /* SneakersTests.swift */; };
 		8462A4A01C6FAF5400DBEDD8 /* SneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A49F1C6FAF5400DBEDD8 /* SneakersUITests.swift */; };
+		8462A4AE1C6FAFFE00DBEDD8 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8462A49B1C6FAF5400DBEDD8 /* SneakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SneakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8462A49F1C6FAF5400DBEDD8 /* SneakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersUITests.swift; sourceTree = "<group>"; };
 		8462A4A11C6FAF5400DBEDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8462A4881C6FAF5400DBEDD8 /* LaunchScreen.storyboard */,
 				8462A48B1C6FAF5400DBEDD8 /* Info.plist */,
 				8462A4831C6FAF5400DBEDD8 /* Sneakers.xcdatamodeld */,
+				8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */,
 			);
 			path = Sneakers;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				8462A47F1C6FAF5400DBEDD8 /* ViewController.swift in Sources */,
 				8462A47D1C6FAF5400DBEDD8 /* AppDelegate.swift in Sources */,
+				8462A4AE1C6FAFFE00DBEDD8 /* ToDoItems.swift in Sources */,
 				8462A4851C6FAF5400DBEDD8 /* Sneakers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
