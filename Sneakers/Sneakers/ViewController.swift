@@ -16,14 +16,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setUpTableView()
+        
+        setUpToDoItems()
+        
+        
+    }
+    
+    func setUpTableView(){
+        
         tableView.dataSource = self
         tableView.delegate = self
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
+    }
+    
+    func setUpToDoItems(){
+        
         if toDoItems.count > 0{
-        
+            
             return
-        
+            
         }
         toDoItems.append(ToDoItems(text: "Drink a big glass of water"))
         toDoItems.append(ToDoItems(text: "Look at the blue paper"))
@@ -37,6 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         toDoItems.append(ToDoItems(text: "get more exercise"))
         toDoItems.append(ToDoItems(text: "catch up with Mom"))
         toDoItems.append(ToDoItems(text: "get a hair cut"))
+        
     }
 
     override func didReceiveMemoryWarning() {
