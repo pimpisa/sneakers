@@ -74,8 +74,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView,
         cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCellWithIdentifier("cell",
-                forIndexPath: indexPath) 
-            let item = toDoItems[indexPath.row]
+                forIndexPath: indexPath)
+            let lightBlueColor : UIColor = Utilities.UIColorFromHex(0x34AADC, alpha: 1.0)
+        
+            cell.backgroundColor = lightBlueColor
+                    let item = toDoItems[indexPath.row]
             cell.textLabel?.text = item.text
             return cell
     }
@@ -84,6 +87,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         indexPath: NSIndexPath) -> CGFloat {
             return tableView.rowHeight;
     }
+    
+    //MARK: - Table View Delegate
+    
+    func colorForIndex(index: Int) -> UIColor {
+        let itemCount = toDoItems.count - 1
+        print(itemCount)
+        let val = (CGFloat(index) / CGFloat(itemCount)) * 0.6
+        print(val)
+        return UIColor(red: 1.0, green: val, blue: 0.0, alpha: 1.0)
+    }
+    
+    func tableView(tableView:UITableView,willDisplayCell cell:UITableView, forRowIndexPath indexPath:NSIndexPath){
+        print("Get call")
+    
+    cell.backgroundColor = colorForIndex(indexPath.row)
+    }
+    
 
 
 }

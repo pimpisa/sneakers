@@ -18,5 +18,6 @@ class Utilities: NSObject {
         
         return UIColor(red:red, green:green, blue:blue, alpha:CGFloat(alpha))
     }
+    
 
 }
