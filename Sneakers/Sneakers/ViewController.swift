@@ -28,6 +28,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.dataSource = self
         tableView.delegate = self
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.separatorStyle = .None
+        tableView.rowHeight = 50.0
+
         
     }
     
@@ -75,6 +78,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let item = toDoItems[indexPath.row]
             cell.textLabel?.text = item.text
             return cell
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath
+        indexPath: NSIndexPath) -> CGFloat {
+            return tableView.rowHeight;
     }
 
 

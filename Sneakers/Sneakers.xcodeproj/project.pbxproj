@@ -16,6 +16,7 @@
 		8462A4951C6FAF5400DBEDD8 /* SneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A4941C6FAF5400DBEDD8 /* SneakersTests.swift */; };
 		8462A4A01C6FAF5400DBEDD8 /* SneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A49F1C6FAF5400DBEDD8 /* SneakersUITests.swift */; };
 		8462A4AE1C6FAFFE00DBEDD8 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */; };
+		8462A4B21C72D0ED00DBEDD8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A4B11C72D0ED00DBEDD8 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8462A49F1C6FAF5400DBEDD8 /* SneakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakersUITests.swift; sourceTree = "<group>"; };
 		8462A4A11C6FAF5400DBEDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		8462A4B11C72D0ED00DBEDD8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8462A47B1C6FAF5400DBEDD8 /* Sneakers */ = {
 			isa = PBXGroup;
 			children = (
+				8462A4B01C72D0C900DBEDD8 /* Utilities */,
 				8462A4AF1C6FB08F00DBEDD8 /* Models */,
 				8462A47C1C6FAF5400DBEDD8 /* AppDelegate.swift */,
 				8462A47E1C6FAF5400DBEDD8 /* ViewController.swift */,
@@ -137,6 +140,14 @@
 				8462A4AD1C6FAFFE00DBEDD8 /* ToDoItems.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		8462A4B01C72D0C900DBEDD8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8462A4B11C72D0ED00DBEDD8 /* Utilities.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				8462A47F1C6FAF5400DBEDD8 /* ViewController.swift in Sources */,
 				8462A47D1C6FAF5400DBEDD8 /* AppDelegate.swift in Sources */,
 				8462A4AE1C6FAFFE00DBEDD8 /* ToDoItems.swift in Sources */,
+				8462A4B21C72D0ED00DBEDD8 /* Utilities.swift in Sources */,
 				8462A4851C6FAF5400DBEDD8 /* Sneakers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
